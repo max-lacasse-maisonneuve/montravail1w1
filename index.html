@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="shortcut icon" href="assets/img/logo_vinyle.png" type="image/x-icon" />
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <nav id="nav-principale">
+                <img src="assets/img/logo_vinyle.png" alt="logo" class="logo" />
+                <ul class="nav__liste">
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="formulaire.html" target="_blank">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <div class="detail">
+                    <img class="detail__img" src="assets/img/albums/doors_the_doors.webp" alt="" />
+                    <h2 class="detail__artiste">The Doors</h2>
+                    <h3 class="detail__album">The Doors</h3>
+                    <p class="detail__prix">20$</p>
+                    <p class="detail__genre">Rock</p>
+                    <p class="detail__annee">1967</p>
+                    <p class="detail__enStock"></p>
+                </div>
+            </aside>
+            <section>
+                <div class="section-header">
+                    <h1>Liste des albums</h1>
+                    <div class="filtres">
+                        <div class="bouton tri" id="tri-artiste" data-type="artiste">Par ordre alphabétique (A-Z)</div>
+                        <div class="bouton tri" id="tri-annee" data-type="annee">Par année (plus récent)</div>
+                        <div class="bouton tri" id="tri-prix" data-type="prix">Par prix</div>
+                        <div class="bouton filtre" id="filtre-rabais-20" data-type="rabais">20$ et moins</div>
+                    </div>
+                </div>
+                <div class="grille-produits">
+                    <div class="produit" id="1">
+                        <img class="produit__img" src="assets/img/albums/pearl.webp" alt="" />
+                        <h2 class="produit__groupe">Janis Joplin</h2>
+                        <h3 class="produit__album">Pearl</h3>
+                        <p class="produit__prix">20$</p>
+                    </div>
+                    <div class="produit" id="2">
+                        <img class="produit__img" src="assets/img/albums/abbey_road.webp" alt="" />
+                        <h2 class="produit__groupe">Les Beatles</h2>
+                        <h3 class="produit__album">Abbey Road</h3>
+                        <p class="produit__prix">40$</p>
+                    </div>
+                    <div class="produit" id="3">
+                        <img class="produit__img" src="assets/img/albums/the_dark_side_of_the_moon.webp" alt="" />
+                        <h2 class="produit__groupe">Pink Floyd</h2>
+                        <h3 class="produit__album">The Dark Side of the Moon</h3>
+                        <p class="produit__prix">35$</p>
+                    </div>
+                    <div class="produit" id="4">
+                        <img class="produit__img" src="assets/img/albums/aftermath.webp" alt="" />
+                        <h2 class="produit__groupe">The Rolling Stones</h2>
+                        <h3 class="produit__album">Aftermath</h3>
+                        <p class="produit__prix">12$</p>
+                    </div>
+                    <div class="produit" id="5">
+                        <img class="produit__img" src="assets/img/albums/mezzanine.webp" alt="" />
+                        <h2 class="produit__groupe">Massive Attack</h2>
+                        <h3 class="produit__album">Mezzanine</h3>
+                        <p class="produit__prix">20$</p>
+                    </div>
+                    <div class="produit" id="6">
+                        <img class="produit__img" src="assets/img/albums/nevermind.webp" alt="" />
+                        <h2 class="produit__groupe">Nirvana</h2>
+                        <h3 class="produit__album">Nevermind</h3>
+                        <p class="produit__prix">85$</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

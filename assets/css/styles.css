@@ -1,0 +1,46 @@
+@import url("./reset.css");
+
+body > * {
+    border: 2px solid red;
+}
+body {
+    font-size: 18px;
+}
+:root {
+    --couleur-principale: tomato;
+    --taille-sm: 1rem;
+}
+
+h1 {
+    color: var(--couleur-principale);
+}
+h2 {
+    color: var(--couleur-principale);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    display: flex;
+
+    max-height: 10vh;
+}
+
+header > nav {
+    display: flex;
+    gap: 2rem;
+}
+header > nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+main {
+    height: 200px;
+    overflow: scroll;
+}
